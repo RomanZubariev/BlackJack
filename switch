@@ -1,0 +1,42 @@
+ switch (face){
+            case "Ace": imageId+="ace";
+                break;
+            case "Deuce": imageId+="2";
+                break;
+            case "Tree": imageId+="3";
+                break;
+            case "Four": imageId+="4";
+                break;
+            case "Five": imageId+="5";
+                break;
+            case "Six": imageId+="6";
+                break;
+            case "Seven": imageId+="7";
+                break;
+            case "Eight": imageId+="8";
+                break;
+            case "Nine": imageId+="9";
+                break;
+            case "Ten": imageId+="10";
+                break;
+            case "Jack": imageId+="jack";
+                break;
+            case "Queen": imageId+="queen";
+                break;
+            case "King": imageId+="king";
+                break;
+            default: imageId="";
+                break;
+        }
+        imageId+="_of_";
+        switch (suit){
+            case "Clubs": imageId+="clubs";
+                break;
+            case "Spades": imageId+="spades";
+                break;
+            case "Hearts": imageId+="hearts";
+                break;
+            case "Diamonds": imageId+="diamonds";
+                break;
+            default:imageId="";
+        }
